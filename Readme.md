@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Александр Лобышев](https://up.htmlacademy.ru/adaptive/16/user/900081).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Усов](hhttps://htmlacademy.ru/profile/id172343).
 
 ---
 
