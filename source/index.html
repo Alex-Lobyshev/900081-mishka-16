@@ -30,7 +30,7 @@
 			</a>
 			<div class="search page-header__search"></div>
 			<nav class="user-nav">
-				<ul class="main-nav__list user-list">
+				<ul class="user-nav__list user-list">
 					<li class="user-list__item">
 						<a href="cart.html"></a>
 					</li>
@@ -53,14 +53,14 @@
 					</li>
 				</ul>
 			</section>
-			<ul class="products products-list">
-				<li class="products-list__item">
-					<p class="product-title">Вязаные корзинки</p>
+			<ul class="product">
+				<li class="product__item">
+					<p class="product__title">Вязаные корзинки</p>
 					<a href="all-product.html">товар недели</a>
-					<p class="product-describe">
+					<p class="product__describe">
 						Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
 					</p>
-					<table class="product-param">
+					<table class="product__param">
 						<tr>
 							<td>Цвет:</td>
 							<td>«Тиффани»/серый</td>
@@ -74,13 +74,13 @@
 							<td>15 см</td>
 						</tr>
 					</table>
-					<p class="product-price">Цена: 990 руб.</p>
+					<p class="product__price">Цена: 990 руб.</p>
 					<a href="cart.html" class="button button-order">Заказать</a>
 				</li>
 			</ul>
 			<section class="about-us">
-				<h2 class="about-title">Коротко о нас</h2>
-				<ul class="about-list">
+				<h2 class="about-us__title">Коротко о нас</h2>
+				<ul class="about-us__list about-list">
 					<li class="about-list__item about-list__item--eco">Экологически чистые материалы</li>
 					<li class="about-list__item about-list__item--love">Связано вручную с любовью и умилением</li>
 					<li class="about-list__item about-list__item--scandinavian">Скандинавский стиль по российской цене</li>
@@ -89,43 +89,41 @@
 					<li class="about-list__item about-list__item--present">Поставляется в подарочной упаковке</li>
 				</ul>
 			</section>
-			<section class="reviews">
-				<h2 class="reviews-title">Отзывы</h2>
-				<div class="reviews-list slider__list">
-					<blockquote class="reviews__item slider__item">
-						<p class="reviews__picture">
-							<img class="reviews__image" src="img/picture-travis.jpg" width="50" height="33" alt="Фото товара отзыва">
+			<section class="reviews slider">
+				<h2 class="reviews__title">Отзывы</h2>
+				<div class="reviews__list reviews-list slider__list slider-list">
+					<blockquote class="reviews-list__item slider-list__item">
+						<p class="reviews-list__picture">
+							<img class="reviews-list__image" src="img/picture-travis.jpg" width="50" height="33" alt="Фото товара отзыва">
 						</p>
-						<p class="reviews__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
-						<cite class="reviews__author-name">Анастасия Красильникова</cite>
-						<p class="reviews__author-adress">@misssssiskras</p>
+						<p class="reviews-list__text">Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+						<cite class="reviews-list__author-name">Анастасия Красильникова</cite>
+						<p class="reviews-list__author-adress">@misssssiskras</p>
 					</blockquote>
 				</div>
-				<p class="reviews__toggles slider__toggles">
-					<button class="slider__toggle slider__toggle--back" type="button">Назад</button>
-					<button class="slider__toggle slider__toggle--next" type="button">Вперед</button>
-				</p>
+				<button class="slider__toggle slider__toggle--back" type="button">Назад</button>
+				<button class="slider__toggle slider__toggle--next" type="button">Вперед</button>
 				<a href="form.html" class="button button-reviews">Написать</a>
 			</section>
-			<section class="contacts">
-				<h2 class="contacts-title contacts-title--icon">Контакты</h2>
-				<p class="contacts-mail mail"></p>
-				<p class="contacts-adress adress"></p>
-				<a href="form.html" class="button contacts-button">Написать</a>
-				<p class="contacts-map"></p>
+			<section class="contact-us">
+				<h2 class="contact-us__title contacts-title--icon">Контакты</h2>
+				<p class="contact-us__mail"></p>
+				<p class="contact-us__adress"></p>
+				<a href="form.html" class="button contact-us__button">Написать</a>
+				<p class="contact-us__map"></p>
 			</section>
 		</main>
 		<footer class="page-footer">
 			<div class="page-footer__social social">
-				<ul class="social-list">
-					<li class="social__item">
-						<a class="social__link social__link--vkontakte" href="https://www.vk.com/htmlacademy">Мы в контакте</a>
+				<ul class="social__list social-list">
+					<li class="social-list__item">
+						<a class="social-list__link social-list__link--vkontakte" href="https://www.vk.com/htmlacademy">Мы в контакте</a>
 					</li>
-					<li class="social__item">
-						<a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+					<li class="social-list__item">
+						<a class="social-list__link social-list__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
 					</li>
-					<li class="social__item">
-						<a class="social__link social__link--twitter" href="https://www.twitter.com/htmlacademy">Мы в Твиттере</a>
+					<li class="social-list__item">
+						<a class="social-list__link social-list__link--twitter" href="https://www.twitter.com/htmlacademy">Мы в Твиттере</a>
 					</li>
 				</ul>
 			</div>
