@@ -19,22 +19,22 @@
 
 
   <link crossorigin="anonymous" media="all" integrity="sha512-7uoDIEGQ8zTwUS9KjTP+/2I13FQPHvJ9EKoeUThfin5R1+27bcUC08VQzUo4CIjCdhvJM4zxuI+3HcSycAUTCg==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-abba74d6e28a6842788159fec056bf26.css" />
-  
+
     <link crossorigin="anonymous" media="all" integrity="sha512-Z2YOMKbtopokXI5r1lz6WLH2fQA4aP/6xg8xNqF0aCKjWs+2ANRgSNShAktNToJy3IZGIOdvcNXV529X+C2oLA==" rel="stylesheet" href="https://github.githubassets.com/assets/github-71f000b640b83c0663e7e39176d65284.css" />
-    
-    
-    
-    
+
+
+
+
 
   <meta name="viewport" content="width=device-width">
-  
+
   <title>900081-mishka-16/gulpfile.js at master · htmlacademy-adaptive/900081-mishka-16</title>
     <meta name="description" content="Александр Лобышев. Contribute to htmlacademy-adaptive/900081-mishka-16 development by creating an account on GitHub.">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
-    
+
     <meta property="og:image" content="https://avatars0.githubusercontent.com/u/9918669?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="htmlacademy-adaptive/900081-mishka-16" /><meta property="og:url" content="https://github.com/htmlacademy-adaptive/900081-mishka-16" /><meta property="og:description" content="Александр Лобышев. Contribute to htmlacademy-adaptive/900081-mishka-16 development by creating an account on GitHub." />
 
   <link rel="assets" href="https://github.githubassets.com/">
@@ -44,7 +44,7 @@
   <meta name="request-id" content="C872:9EC5:1301457:1CE8DD6:5CA903AA" data-pjax-transient>
 
 
-  
+
 
   <meta name="selected-link" value="repo_source" data-pjax-transient>
 
@@ -65,7 +65,7 @@
 
 
 
-  
+
 
       <meta name="hostname" content="github.com">
     <meta name="user-login" content="Alex-Lobyshev">
@@ -78,7 +78,7 @@
   <meta name="html-safe-nonce" content="0cf580d467fa546c9e7d0bb8b26491a5de2dfe62">
 
   <meta http-equiv="x-pjax-version" content="50f3ebc065bc0c72e5237d6157b4b8a7">
-  
+
 
       <link href="https://github.com/htmlacademy-adaptive/900081-mishka-16/commits/master.atom" rel="alternate" title="Recent Commits to 900081-mishka-16:master" type="application/atom+xml">
 
@@ -108,18 +108,18 @@
   </head>
 
   <body class="logged-in env-production emoji-size-boost page-blob">
-    
+
 
   <div class="position-relative js-header-wrapper ">
     <a href="#start-of-content" tabindex="1" class="p-3 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
     <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
 
-    
-    
-    
 
 
-        
+
+
+
+
   <header class="Header" role="banner">
 
     <div class="Header-item">
@@ -161,9 +161,9 @@
             <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
 
             <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
-              
+
 <ul class="d-none js-jump-to-suggestions-template-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -204,7 +204,7 @@
 </ul>
 
 <ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -236,7 +236,7 @@
   </a>
 </li>
 
-  
+
 
 <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
   <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
@@ -290,7 +290,7 @@
 </a>
     <a class="js-selected-navigation-item Header-link  mr-3" data-ga-click="Header, click, Nav menu - item:marketplace context:user" data-octo-click="marketplace_click" data-octo-dimensions="location:nav_bar" data-selected-links=" /marketplace" href="/marketplace">
       Marketplace
-</a>      
+</a>
 
   <a class="js-selected-navigation-item Header-link  mr-3" data-ga-click="Header, click, Nav menu - item:explore" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="/explore">
     Explore
@@ -301,7 +301,7 @@
 
 
     <div class="Header-item">
-      
+
     <a aria-label="You have no unread notifications" class="Header-link notification-indicator tooltipped tooltipped-s  js-socket-channel js-notification-indicator" data-hotkey="g n" data-ga-click="Header, go to notifications, icon:read" data-channel="notification-changed:44744137" href="/notifications">
         <span class="mail-status "></span>
         <svg class="octicon octicon-bell" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 12v1H0v-1l.73-.58c.77-.77.81-2.55 1.19-4.42C2.69 3.23 6 2 6 2c0-.55.45-1 1-1s1 .45 1 1c0 0 3.39 1.23 4.16 5 .38 1.88.42 3.66 1.19 4.42l.66.58H14zm-7 4c1.11 0 2-.89 2-2H5c0 1.11.89 2 2 2z"/></svg>
@@ -317,7 +317,7 @@
     <svg class="octicon octicon-plus" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 9H7v5H5V9H0V7h5V2h2v5h5v2z"/></svg> <span class="dropdown-caret"></span>
   </summary>
   <details-menu class="dropdown-menu dropdown-menu-sw">
-    
+
 <a role="menuitem" class="dropdown-item" href="/new" data-ga-click="Header, create new repository">
   New repository
 </a>
@@ -343,7 +343,7 @@
     </div>
 
     <div class="Header-item position-relative mr-0">
-      
+
 <details class="details-overlay details-reset">
   <summary class="Header-link"
     aria-label="View profile and more"
@@ -356,7 +356,7 @@
     <div role="none" class="dropdown-divider"></div>
 
     <div class="px-3 f6 user-status-container js-user-status-context pb-1" data-url="/users/status?compact=1&amp;link_mentions=0&amp;truncate=1">
-      
+
 <div class="js-user-status-container user-status-compact" data-team-hovercards-enabled>
   <details class="js-user-status-details details-reset details-overlay details-overlay-dark">
     <summary class="btn-link no-underline js-toggle-user-status-edit toggle-user-status-edit width-full" aria-haspopup="dialog" role="menuitem" data-hydro-click="{&quot;event_type&quot;:&quot;user_profile.click&quot;,&quot;payload&quot;:{&quot;profile_user_id&quot;:9918669,&quot;target&quot;:&quot;EDIT_USER_STATUS&quot;,&quot;user_id&quot;:44744137,&quot;client_id&quot;:&quot;9386535.1554361910&quot;,&quot;originating_request_id&quot;:&quot;C872:9EC5:1301457:1CE8DD6:5CA903AA&quot;,&quot;originating_url&quot;:&quot;https://github.com/htmlacademy-adaptive/900081-mishka-16/blob/master/gulpfile.js&quot;,&quot;referrer&quot;:&quot;https://github.com/htmlacademy-adaptive/900081-mishka-16&quot;}}" data-hydro-click-hmac="615f5fcf1586ea13089fd3fdacdd8ecae1b9f8682af93ec129931fd592ad6fc6">
@@ -457,7 +457,7 @@
               </div>
             </div>
           </div>
-            
+
 
 <div class="d-inline-block f5 mr-2 pt-3 pb-2" >
   <div class="d-inline-block mr-1">
@@ -539,7 +539,7 @@
     <a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a>
     <a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a>
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="I+AreW7Tag4Z/YNC9jDrj0Lx6dq76OdF/B32/hAbQeGs4wuMf5+TBQ1TKNnLXRVwhyrHyArA3twDp57RGFBw8A==" />
-      
+
       <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
         Sign out
       </button>
@@ -550,7 +550,7 @@
 
   </header>
 
-      
+
 
   </div>
 
@@ -565,14 +565,14 @@
   <div class="application-main " data-commit-hovercards-enabled>
         <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
     <main id="js-repo-pjax-container" data-pjax-container >
-      
-
-
-  
 
 
 
-  
+
+
+
+
+
 
 
 
@@ -585,7 +585,7 @@
 
 
   <li>
-    
+
     <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-remote="true" class="clearfix js-social-form js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="R5DkOp3BjF360QRqEnH0cBCrn7NW8Fqn86mYNIuTPiiquuXYvkBmxXsvfPE9HkCHKuEyagulIS+ZjQFiHjvM0Q==" />      <input type="hidden" name="repository_id" value="178456853">
 
       <details class="details-reset details-overlay select-menu float-left">
@@ -703,7 +703,7 @@
 </h1>
 
     </div>
-    
+
 <nav class="reponav js-repo-nav js-sidenav-container-pjax container"
      itemscope
      itemtype="http://schema.org/BreadcrumbList"
@@ -743,24 +743,24 @@
 <div class="container new-discussion-timeline experiment-repo-nav  ">
   <div class="repository-content ">
 
-    
-    
 
 
 
-  
+
+
+
     <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/htmlacademy-adaptive/900081-mishka-16/blob/c30b198571e73f88447189c3d19c85272e2b1cc8/gulpfile.js">Permalink</a>
 
     <!-- blob contrib key: blob_contributors:v21:8fc0318fea80d05f61dc92fb1522780f -->
 
-    
+
 
     <div class="d-flex flex-shrink-0 flex-items-start mb-3">
-      
+
 <details class="details-reset details-overlay select-menu branch-select-menu ">
   <summary class="btn btn-sm select-menu-button css-truncate"
            data-hotkey="w"
-           
+
            title="Switch branches or tags">
     <i>Branch:</i>
     <span class="css-truncate-target">master</span>
@@ -806,7 +806,7 @@
 
 
     <div class="Box mt-3 position-relative">
-      
+
 <div class="Box-header py-2 d-flex flex-justify-between flex-items-center">
 
   <div class="text-mono f6">
@@ -847,10 +847,10 @@
   </div>
 </div>
 
-      
+
 
   <div itemprop="text" class="Box-body p-0 blob-wrapper data type-javascript ">
-      
+
 <table class="highlight tab-size js-file-line-container" data-tab-size="2">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
@@ -1024,7 +1024,7 @@
 
     </div>
 
-  
+
 
   <details class="details-reset details-overlay details-overlay-dark">
     <summary data-hotkey="l" aria-label="Jump to line"></summary>
@@ -1043,11 +1043,11 @@
 
     </main>
   </div>
-  
+
 
   </div>
 
-        
+
 <div class="footer container-lg width-full px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
@@ -1088,13 +1088,13 @@
   </div>
 
 
-    
+
     <script crossorigin="anonymous" integrity="sha512-bphhLbLcXwgzeVnBMcSG8SOa16cgriNbZcgA9uWXAlGEFY58lcBmENXevq9CR1d+61CN6gKopmvT9eMxqQAvdA==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-bf3c39df.js"></script>
-    
+
     <script crossorigin="anonymous" async="async" integrity="sha512-XI/rhcvulwKFLPlHbYi81zUJQCq+F1v9dZElmEn84DLxovRUW/NhmTcF/buTFvUC7JhKWBFlTAoFvETEKevBgg==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-cca2ad18.js"></script>
-    
-    
-    
+
+
+
   <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner" hidden
     >
     <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"/></svg>
