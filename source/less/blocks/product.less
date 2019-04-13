@@ -1,0 +1,27 @@
+.product__title {
+  font-size: 25px;
+  font-weight: @font-bold;
+  line-height: 30px;
+
+  &:hover {
+    color: rgba(0, 0, 0 , 0.6);
+  }
+
+  &:active {
+    color: rgba(0, 0, 0 , 0.3);
+  }
+}
+
+@media (min-width: @tablet-width) {
+  .product__title {
+    font-size: 43px;
+    line-height: 1.16;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .product__title {
+    font-size: 53px;
+    line-height: 57px;
+  }
+}

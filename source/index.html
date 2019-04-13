@@ -7,7 +7,10 @@
 	</head>
 	<body>
 		<header class="page-header">
-			<nav class="main-nav">
+      <a class="page-header__logo">
+				<img class="page-header__logo-image" src="img/logo-mobile.svg" width="226" height="30" alt="Интернет магазин Мишка">
+			</a>
+      <nav class="main-nav">
 				<button class="main-nav__toggle" type="button">Открыть меню</button>
 				<div class="main-nav__wrapper">
 					<ul class="main-nav__list site-list">
@@ -17,18 +20,16 @@
 						<li class="site-list__item">
 							<a href="knitting-to-order.html">Вязание на заказ</a>
 						</li>
-						<li class="site-list__item">
+						<li class="site-list__item site-list__item--new">
 							<a href="new-collection.html">Новые поступления</a>
 						</li>
-						<li class="site-list__item">
+						<li class="site-list__item site-list__item--sale">
 							<a href="discount.html">Распродажа</a>
 						</li>
 					</ul>
 				</div>
 			</nav>
-			<a class="page-header__logo">
-				<img class="page-header__logo-image" src="img/logotype-mobile.svg" width="226" height="30" alt="Интернет магазин Мишка">
-			</a>
+
 			<div class="search page-header__search"></div>
 			<nav class="user-nav">
 				<ul class="user-nav__list user-list">
@@ -36,15 +37,15 @@
 						<a href="cart.html"></a>
 					</li>
 					<li class="user-list__item">Корзина: пока пуста</li>
-					<li class="user-list__item">
+					<li class="user-list__item user-list__item--delivery">
 						<a href="delivery.html">Бесплатная доставка по России</a>
 					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<section class="page-header">
-				<h1 class="page-header__title">Милые штуки ручной работы для дома</h1>
+			<section class="main-header">
+				<h1 class="main-header__title">Милые штуки ручной работы для дома</h1>
 				<ul class="catalog-list">
 					<li class="catalog-list__item">
 						<a href="interior.html">Предметы интерьера</a>
@@ -57,7 +58,7 @@
 			<ul class="product">
 				<li class="product__item">
 					<p class="product__title">Вязаные корзинки</p>
-					<a href="all-product.html">товар недели</a>
+          <a href="all-product.html">товар недели</a>
 					<p class="product__describe">
 						Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
 					</p>
@@ -76,7 +77,10 @@
 						</tr>
 					</table>
 					<p class="product__price">Цена: 990 руб.</p>
-					<a href="cart.html" class="button button-order">Заказать</a>
+          <a href="cart.html" class="button button-order">Заказать</a>
+          <a class="product__image">
+            <img src="img/triple-set-mobile@1x.jpg" width="525" height="636" alt="Вязаные корзинки">
+          </a>
 				</li>
 			</ul>
 			<section class="about-us">
