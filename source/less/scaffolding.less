@@ -25,7 +25,7 @@ body {
   font-size: 18px;
   line-height: 27px;
   font-family: "Open Sans", sans-serif;
-  color: rgba(0, 0, 0 , 1);
+  color: rgba(0, 0, 0, 1);
   font-style: normal;
 
   background-color: #ffffff;
@@ -34,4 +34,28 @@ body {
 img {
   max-width: 100%;
   height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  color: rgba(0, 0, 0 , 1);
+  border: 2px solid rgba(68, 68, 68, 1);
+
+  &:hover {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(68, 68, 68, 1);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0.3)
+  }
 }
