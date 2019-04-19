@@ -2,9 +2,9 @@
   color: rgba(68, 68, 68, 1);
 
   .product__title {
-    font-size: 25px;
-    font-weight: @font-bold;
-    line-height: 30px;
+    font-size: 53px;
+    line-height: 57px;
+    font-weight: @font-regular;
     color: rgba(0, 0, 0, 1);
 
     &:hover {
@@ -15,24 +15,24 @@
       color: rgba(0, 0, 0, 0.3);
     }
 
-    @media (min-width: @tablet-width) {
+    @media (max-width: @desktop-width) {
       font-size: 43px;
       line-height: 50px;
     }
 
-    @media (min-width: @desktop-width) {
-      font-size: 53px;
-      line-height: 57px;
+    @media (max-width: @tablet-width) {
+      font-size: 25px;
+      line-height: 30px;
     }
   }
 
   .product__describe {
-    font-size: 15px;
-    line-height: 24px;
+    font-size: 17px;
+    line-height: 30px;
 
-    @media (min-width: @tablet-width) {
-      font-size: 17px;
-      line-height: 30px;
+    @media (max-width: @tablet-width) {
+      font-size: 15px;
+      line-height: 24px;
     }
   }
 
@@ -43,8 +43,8 @@
 
   .product__price {
     font-size: 17px;
-    font-weight: @font-bold;
     line-height: 24px;
+    font-weight: @font-regular;
   }
 }
 
