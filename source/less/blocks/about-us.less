@@ -1,9 +1,8 @@
 .about-us {
   .about-us__title {
-    font-size: 53px;
+    font-size: 25px;
     font-weight: @font-regular;
-    line-height: 57px;
-    color: rgba(0, 0, 0, 1);
+    line-height: 30px;
 
     &:hover {
       color: rgba(0, 0, 0, 0.6);
@@ -12,14 +11,17 @@
     &:active {
       color: rgba(0, 0, 0, 0.3);
     }
-    @media (max-width: @desktop-width) {
+
+    @media (min-width: @tablet-width) {
       font-size: 43px;
       line-height: 50px;
     }
 
-    @media (max-width: @tablet-width) {
-      font-size: 25px;
-      line-height: 30px;
+    @media (min-width: @desktop-width) {
+      font-size: 53px;
+      line-height: 57px;
     }
+
+
   }
 }
