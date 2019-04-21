@@ -1,7 +1,48 @@
 .collection-discount {
-  .collection-discount__item {
-    font-weight: @font-regular;
-    font-size  : 15px;
-    line-height: 24px;
+  display: flex;
+
+  @media (min-width: @tablet-width) {
+    .collection-discount {
+      &--hidden {
+        display: flex;
+      }
+    }
+
+    .collection-discount__item {
+      &--hidden {
+        display: none;
+      }
+    }
   }
-}
+
+  @media (min-width: @desktop-width) {
+    .collection-discount__item {
+      &--hidden {
+        display: flex;
+      }
+
+      &--none {
+        display: none;
+      }
+    }
+  }
+
+  .collection-discount__item {
+    font-weight  : @font-regular;
+    font-size    : 15px;
+    line-height  : 24px;
+    padding-right: 60px;
+
+    &:last-child {
+      padding-right: 0;
+    }
+
+    @media (min-width: @tablet-width) {
+      .collection-discount__item {
+        &--hidden {
+          display: none;
+        }
+      }
+    }
+    }
+  }
