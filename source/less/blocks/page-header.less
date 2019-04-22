@@ -6,8 +6,40 @@
   .page-header__logo {
     height: 79px;
 
+    &--tablet {
+      display: none;
+    }
+
+    &--desktop {
+      display: none;
+    }
+
+    @media (min-width: @tablet-width) {
+      &--mobile{
+        display: none;
+      }
+
+      &--tablet {
+        display: block;
+      }
+
+      &--desktop {
+        display: none;
+      }
+    }
+
     @media (min-width: @desktop-width) {
-      order: 2;
+      &--mobile{
+        display: none;
+      }
+
+      &--tablet {
+        display: none;
+      }
+
+      &--desktop {
+        display: block;
+      }
     }
   }
 }
