@@ -85,11 +85,11 @@
               <p class="product-list__title">Вязаные корзинки</p>
               <a class="product-list__link" href="all-product.html">товар недели</a>
             </div>
-            <p class="product-list__describe">
-              Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
-            </p>
-            <div class="product-list__info">
-              <div class="param-image">
+            <div class="product-list__describe">
+              <div class="product-list__characters">
+                <p class="product-list__text">
+                  Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.
+                </p>
                 <table class="product-list__param">
                   <tr>
                     <td>Цвет:</td>
@@ -123,17 +123,25 @@
     </section>
     <img src="img/zigzag-line-desktop-svg" alt="">
     <section class="about-us">
-      <h2 class="about-us__title">Коротко о нас</h2>
-      <ul class="about-us__list about-list">
-        <li class="about-list__item about-list__item--eco">Экологически чистые материалы</li>
-        <li class="about-list__item about-list__item--love">Связано вручную с любовью и умилением</li>
-        <li class="about-list__item about-list__item--scandinavian">Скандинавский стиль по российской цене</li>
-        <li class="about-list__item about-list__item--manufacturer">Поддержка отечественного производителя</li>
-        <li class="about-list__item about-list__item--like">Увеличивает лайки на фотографиях</li>
-        <li class="about-list__item about-list__item--present">Поставляется в подарочной упаковке</li>
-      </ul>
+      <div class="about-us__wrapper">
+        <h2 class="about-us__title">Коротко о нас</h2>
+        <article class="about-list">
+          <div class="about-list__item">
+            <p>Экологически чистые материалы</p>
+            <p>Связано вручную с любовью и умилением</p>
+          </div>
+          <div class="about-list__item">
+            <p>Скандинавский стиль по российской цене</p>
+            <p>Поддержка отечественного производителя</p>
+          </div>
+          <div class="about-list__item">
+            <p>Увеличивает лайки на фотографиях</p>
+            <p>Поставляется в подарочной упаковке</p>
+          </div>
+        </article>
+      </div>
     </section>
-    <section class="reviews-slider">
+    <!--<section class="reviews-slider">
       <h2 class="reviews-slider__title">Отзывы</h2>
       <div class="reviews-slider__list reviews-list">
         <blockquote class="reviews-list__item">
@@ -160,33 +168,41 @@
       <p class="contact-us__adress"></p>
       <a href="form.html" class="button">Написать</a>
       <p class="contact-us__map"></p>
-    </section>
+    </section>-->
   </main>
   <footer class="page-footer">
-    <a class="page-footer__logo">
-      <img class="page-footer__logo-image" src="img/logo-footer.svg" width="102" height="34"
-        alt="Интернет магазин Мишка">
-    </a>
-    <div class="page-footer__social">
-      <ul class="social-list">
-        <li class="social-list__item">
-          <a class="social-list__link social-list__link--vkontakte" href="https://www.vk.com/htmlacademy">Мы в
-            контакте</a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link social-list__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в
-            Фейсбуке</a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link social-list__link--twitter" href="https://www.twitter.com/htmlacademy">Мы в
-            Твиттере</a>
-        </li>
-      </ul>
-    </div>
-    <div class="copyright">
-      <b class="copyright__text">Разработано:</b>
-      <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/htmlacademy.svg"
-          alt="Логотип академии" width="27" height="34"><span>HTML Academy</span></a>
+    <div class="page-footer__wrapper">
+      <a class="page-footer__logo">
+        <img class="page-footer__logo-image" src="img/logo-footer.svg" width="102" height="34"
+          alt="Интернет магазин Мишка">
+      </a>
+      <div class="page-footer__social">
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.vk.com/htmlacademy">
+              <span class="visually-hidden">Мы в контакте</span>
+              <img src="img/icon-insta.svg" width="22" height="22" alt="Мы в контакте">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.facebook.com/htmlacademy">
+              <span class="visually-hidden">Мы в Фейсбуке</span>
+              <img src="img/icon-fb.svg" width="14" height="27" alt="Мы в Фейсбуке">
+              </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.twitter.com/htmlacademy">
+              <span class="visually-hidden">Мы в Твиттере</span>
+              <img src="img/icon-twitter.svg" width="23" height="20" alt="Мы в Твиттере">
+              </a>
+          </li>
+        </ul>
+      </div>
+      <div class="copyright">
+        <b class="copyright__text">Разработано:</b>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src="img/htmlacademy.svg"
+            alt="Логотип академии" width="27" height="34"><span class="visually-hidden">HTML Academy</span></a>
+      </div>
     </div>
   </footer>
 </body>
