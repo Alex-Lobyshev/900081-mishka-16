@@ -65,44 +65,106 @@
           </p>
         </div>
         <div class="content-block">
-          <h1 class="main-header__title">Каталог товаров</h1>
+          <h1 class="main-header__title main-header__title--catalog">Каталог товаров</h1>
         </div>
       </div>
     </section>
-    <div class="catalog-wrapper">
-      <ul class="catalog-list">
-        <li class="catalog-list__item catalog-item">
-          <img src="http://placehold.it/260x195" alt="Товар1" class="catalog-item__image">
-          <p class="catalog-item__title">Зайчик-попрыгайчик</p>
-          <p class="catalog-item__describe">Рост 30 см, вес 200 г</p>
-          <b class="catalog-item__price">1 200 руб.</b>
-          <a class="button" href="cart.html">Добавить в корзину</a>
-        </li>
-        <li class="catalog-list__item catalog-item">
-          <img src="http://placehold.it/260x195" alt="Товар2" class="catalog-item__image">
-          <p class="catalog-item__title">Корзинка для белья</p>
-          <p class="catalog-item__describe">Рост 30 см, вес 200 г</p>
-          <b class="catalog-item__price">690 руб.</b>
-          <a class="button" href="cart.html">Добавить в корзину</a>
-        </li>
-        <li class="catalog-list__item catalog-item">
-          <img src="http://placehold.it/260x195" alt="Товар3" class="catalog-item__image">
-          <p class="catalog-item__title">Большая корзинка для игрушек</p>
-          <p class="catalog-item__describe">Диаметр 30 см, высота 30 см</p>
-          <b class="catalog-item__price">1 500 руб.</b>
-          <a class="button" href="cart.html">Добавить в корзину</a>
-        </li>
-      </ul>
+    <div class="product-catalog">
+      <div class="product-catalog__wrapper">
+        <ul class="product-catalog-list">
+          <li class="product-catalog-list__item product-item">
+            <img src="img/photo-hare-mobile@1x.jpg" width="260" height="195" alt="Товар1"
+              class="product-item__image product-item__image--mobile">
+            <img src="img/photo-hare-tablet@1x.jpg" width="334" height="334" alt="Товар1"
+              class="product-item__image product-item__image--tablet">
+            <img src="img/photo-hare-desktop@1x.jpg" width="316" height="462" alt="Товар1"
+              class="product-item__image product-item__image--desktop">
+            <div class="product-item__inner">
+              <div class="product-item__about">
+                <p class="product-item__title">Зайчик-попрыгайчик</p>
+                <p class="product-item__describe">Рост 30 см, вес 200 г</p>
+              </div>
+              <div class="product-item__buy">
+                <p class="product-item__price">1 200 руб.</p>
+                <a class="" href="cart.html">
+                  <img src="img/icon-cart.svg" width="20" height="18px" alt="Добавить в корзину">
+                  <span class="visually-hidden">Добавить в корзину</span>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="product-catalog-list__item product-item">
+            <img src="img/photo-bowl-mobile@1x.jpg" width="260" height="195" alt="Товар2"
+              class="product-item__image product-item__image--mobile">
+            <img src="img/photo-bowl-tablet@1x.jpg" width="334" height="334" alt="Товар2"
+              class="product-item__image product-item__image--tablet">
+            <img src="img/photo-bowl-desktop@1x.jpg" width="316" height="462" alt="Товар2"
+              class="product-item__image product-item__image--desktop">
+            <div class="product-item__inner">
+              <div class="product-item__about">
+                <p class="product-item__title">Корзинка для белья</p>
+                <p class="product-item__describe">Рост 30 см, вес 200 г</p>
+              </div>
+              <div class="product-item__buy">
+                <p class="product-item__price">690 руб.</p>
+                <a class="" href="cart.html">
+                  <img src="img/icon-cart.svg" width="20" height="18px" alt="Добавить в корзину">
+                  <span class="visually-hidden">Добавить в корзину</span>
+                </a>
+              </div>
+            </div>
+
+          </li>
+          <li class="product-catalog-list__item product-item">
+            <img src="img/photo-toys-mobile@1x.jpg" width="260" height="195" alt="Товар3"
+              class="product-item__image product-item__image--mobile">
+            <img src="img/photo-toys-tablet@1x.jpg" width="334" height="334" alt="Товар3"
+              class="product-item__image product-item__image--tablet">
+            <img src="img/photo-toys-desktop@1x.jpg" width="316" height="462" alt="Товар3"
+              class="product-item__image product-item__image--desktop">
+            <div class="product-item__inner">
+              <div class="product-item__about">
+                <p class="product-item__title">Большая корзинка <br>для игрушек</p>
+                <p class="product-item__describe">Диаметр 30 см, высота 30 см</p>
+              </div>
+              <div class="product-item__buy">
+                <p class="product-item__price">1 500 руб.</p>
+                <a class="" href="cart.html">
+                  <img src="img/icon-cart.svg" width="20" height="18px" alt="Добавить в корзину">
+                  <span class="visually-hidden">Добавить в корзину</span>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
     <div class="process">
-      <h2 class="process__title process-title--icon">Процесс производства</h2>
-      <p class="process__video">
-        Видео о процессе изготовления
-      </p>
-      <p class="process__describe">По просьбам наших любимых фоловеров мы сняли для вас подробное видео о том, как
-        пояявляются наши товары.
-      </p>
-      <a href="form.html" class="button process-button">Сделать заказ</a>
+      <div class="process__wrapper">
+        <p class="process__video process__video--tablet">
+          <img src="img/video-tablet@1x.jpg" width="668" height="455" alt="Видео процесса производства">
+          <img class="process__video--play" src="img/icon-play.svg" width="101" height="77"
+            alt="Запуск воспороизведения">
+        </p>
+        <p class="process__video process__video--desktop">
+            <img src="img/video-desktop@1x.jpg" width="682" height="455" alt="Видео процесса производства">
+            <img class="process__video--play" src="img/icon-play.svg" width="101" height="77"
+              alt="Запуск воспороизведения">
+          </p>
+        <div class="process__text">
+          <h2 class="process__title process-title--icon">Процесс производства</h2>
+          <p class="process__video process__video--mobile">
+            <img src="img/video-mobile@1x.jpg" width="260" height="150" alt="Видео процесса производства">
+            <img class="process__video--play" src="img/icon-play.svg" width="101" height="77"
+              alt="Запуск воспороизведения">
+          </p>
+          <p class="process__describe">По просьбам наших любимых фоловеров мы сняли для вас подробное видео о том, как
+            пояявляются наши товары.
+            <a href="form.html" class="button process-button">Сделать заказ</a>
+          </p>
+
+        </div>
+      </div>
     </div>
   </main>
   <footer class="page-footer">

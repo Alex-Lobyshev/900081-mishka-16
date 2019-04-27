@@ -5,7 +5,16 @@
   margin: 0 auto;
 
   &--catalog {
+    background: none;
     background-color: @bg-lightgrey;
+    min-height: 177px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: @tablet-width) {
+      align-items: flex-start;
+    }
   }
 
   @media (min-width: @tablet-width) {
@@ -35,9 +44,23 @@
     font-size: 26.5px;
     font-weight: @font-regular;
 
+    &--index {
+      padding-top: 48px;
+      padding-bottom: 92px;
+    }
+
     @media (min-width: @tablet-width){
       font-size: 43px;
       line-height: 50px;
+
+      &--index {
+        padding-top: 87px;
+        padding-bottom: 326px;
+      }
+
+      &--catalog {
+        padding-top: 32px;
+      }
     }
 
     @media (min-width: @desktop-width) {
