@@ -1,18 +1,13 @@
-.site-list {
-  min-height: 158px;
+.user-list {
+  min-height: 79px;
 
   @media (min-width: @tablet-width) {
-    display: none;
-  }
-
-  @media (min-width: @desktop-width) {
     display: flex;
+    width: 265px;
   }
-
-  .site-list__item {
+  .user-list__item {
     font-weight: @font-regular;
     line-height: 24px;
-    padding: 25px 27px 0 52px;
 
     a {
       &:hover {
@@ -22,14 +17,6 @@
       &:active {
         color: rgba(0, 0, 0, 0.3);
       }
-    }
-
-    &--second {
-      font-size: 15px;
-    }
-
-    &--nbold {
-      font-weight: 400;
     }
   }
 }
