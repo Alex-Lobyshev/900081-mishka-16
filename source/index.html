@@ -14,10 +14,10 @@
       <div class="main-nav__wrapper">
         <div class="main-nav--mobile">
           <a class="page-header__logo page-header__logo--mobile">
-          <img class="page-header__logo-image " src="img/logo-mobile.svg" width="86" height="35"
-            alt="Интернет магазин Мишка">
-        </a>
-        <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+            <img class="page-header__logo-image " src="img/logo-mobile.svg" width="86" height="35"
+              alt="Интернет магазин Мишка">
+          </a>
+          <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
         </div>
         <ul class="main-nav__list site-list">
           <li class="site-list__item main-nav__item">
@@ -37,7 +37,8 @@
         </a>
         <ul class="main-nav__list user-list">
           <li class="user-list__item main-nav__item">
-              <span>Поиск по сайту</span>
+            
+            <span>Поиск по сайту</span>
           </li>
           <li class="user-list__item main-nav__item">
             <a href="cart.html">Корзина: пока пуста</a>
@@ -211,21 +212,21 @@
   </footer>
 
   <script>
-      var navMain = document.querySelector('.main-nav');
-      var navToggle = document.querySelector('.main-nav__toggle');
-    
-      navMain.classList.remove('main-nav--nojs');
-    
-      navToggle.addEventListener('click', function() {
-        if (navMain.classList.contains('main-nav--closed')) {
-          navMain.classList.remove('main-nav--closed');
-          navMain.classList.add('main-nav--opened');
-        } else {
-          navMain.classList.add('main-nav--closed');
-          navMain.classList.remove('main-nav--opened');
-        }
-      });
-    </script>
+    var navMain = document.querySelector('.main-nav');
+    var navToggle = document.querySelector('.main-nav__toggle');
+
+    navMain.classList.remove('main-nav--nojs');
+
+    navToggle.addEventListener('click', function () {
+      if (navMain.classList.contains('main-nav--closed')) {
+        navMain.classList.remove('main-nav--closed');
+        navMain.classList.add('main-nav--opened');
+      } else {
+        navMain.classList.add('main-nav--closed');
+        navMain.classList.remove('main-nav--opened');
+      }
+    });
+  </script>
 </body>
 
 </html>
