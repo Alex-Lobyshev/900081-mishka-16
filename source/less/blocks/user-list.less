@@ -1,13 +1,17 @@
 .user-list {
-  min-height: 79px;
+  display: block;
+  width: 100%;
+  text-align: center;
 
   @media (min-width: @tablet-width) {
     display: flex;
-    width: 265px;
+    align-items: center;
+    justify-content: flex-end;
   }
   .user-list__item {
     font-weight: @font-regular;
     line-height: 24px;
+    border-bottom: 0;
 
     a {
       &:hover {
